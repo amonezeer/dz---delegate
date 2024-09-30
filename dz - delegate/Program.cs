@@ -36,7 +36,7 @@ namespace ConsoleMenu
         static void ShowMenu()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("1 - нью игра");
+            Console.WriteLine("\n1 - нью игра");
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("2 - загрузить игру");
@@ -51,7 +51,7 @@ namespace ConsoleMenu
             Console.WriteLine("0 - выход");
 
             Console.ResetColor();
-            Console.Write("выберите пункт меню: ");
+            Console.Write("\nвыберите пункт меню: ");
         }
 
         static int GetUserInput()
